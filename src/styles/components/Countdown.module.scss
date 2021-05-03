@@ -1,0 +1,115 @@
+@import "../fontawesome/fontawesome.scss";
+@import "../fontawesome/solid.scss";
+
+.countdownContainer {
+  display: flex;
+  align-items: center;
+  font-family: Rajdhani;
+  font-weight: 600;
+  color: var(--title);
+
+  > span {
+    font-size: 6.25rem;
+    margin: 0 0.5rem;
+  }
+
+  div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--white);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-size: 8.5rem;
+    text-align: center;
+
+    span {
+      flex: 1;
+      border-left: 1px solid #f0f1f3;
+
+      &:first-child {
+        border-right: 1px solid #f0f1f3;
+      }
+    }
+  }
+}
+
+.countdownButton {
+  width: 100%;
+  height: 5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  position: relative;
+
+  &:not(:disabled):hover {
+    background: var(--blue-dark);
+  }
+
+  &:not(:disabled):after {
+    @extend %fa-icon;
+    @extend .fas;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: var(--white);
+    content: fa-content($fa-var-play);
+  }
+
+  &:disabled {
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+
+    &:after {
+      @extend %fa-icon;
+      @extend .fas;
+      margin-left: 1rem;
+      color: var(--green);
+      content: fa-content($fa-var-check-circle);
+    }
+  }
+}
+
+.countdownButtonActive {
+  background: var(--white);
+  color: var(--title);
+  outline: none;
+
+  &:not(:disabled):after {
+    @extend %fa-icon;
+    @extend .fas;
+    color: var(--title);
+    margin-left: 1rem;
+    content: fa-content($fa-var-times-circle);
+  }
+
+  &:not(:disabled):hover {
+    background: var(--red);
+    color: var(--white);
+  }
+}
+
+.countdownStatusBar {
+  width: 100%;
+  height: 4px;
+  background-color: var(--gray-line);
+  position: absolute;
+  bottom: 0;
+
+  .countdownStatusBarProgress {
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--green);
+    transition: width 0.25s;
+  }
+}

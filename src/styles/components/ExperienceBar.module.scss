@@ -1,0 +1,38 @@
+.experienceBar {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 1rem;
+  }
+
+  .experienceBackBar {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+
+    .experienceFrontBar {
+      height: 4px;
+      border-radius: 4px;
+      background-color: var(--green);
+
+      i {
+        float: right;
+        width: 8px;
+        height: 8px;
+        background-color: var(--green);
+        border-radius: 8px;
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  .currentExperience {
+    position: absolute;
+    top: 14px;
+    transform: translateX(-50%);
+  }
+}
