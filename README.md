@@ -20,6 +20,12 @@
 
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Build and Start](#buildandstart)
+- [License](#license)
+- [Contact](#contact)
 
 ## Abouth the Project
 
@@ -34,6 +40,8 @@ This is a web application built in React.js and Next.js.
 - [SASS](https://sass-lang.com/)
 
 ## Getting Started
+
+It's very simple. Trust me.
 
 ### Prerequisites
 
@@ -56,7 +64,7 @@ yarn
 
 ## Build and Start
 
-Build and start the application:
+Build and start the application
 
 ```sh
 yarn build
