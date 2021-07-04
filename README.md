@@ -1,4 +1,4 @@
-![moveit](https://renatobrunetti.com.br/projects/moveit/moveit-logo-github.svg)
+![moveit](https://renatobrunetti.com.br/public/.github/moveit/moveit-logo-github.svg)
 
 # Move.It
 
@@ -8,13 +8,13 @@
 [![MIT License][license-shield]][license-url]
 
 - Start new cicle<br>
-  <img src="https://renatobrunetti.com.br/projects/moveit/moveit-start.png" width="500px">
+  <img src="https://renatobrunetti.com.br/public/.github/moveit/moveit-start.png" width="500px">
 
 - Do some challenge<br>
-  <img src="https://renatobrunetti.com.br/projects/moveit/moveit-challenge.png" width="500px">
+  <img src="https://renatobrunetti.com.br/public/.github/moveit/moveit-challenge.png" width="500px">
 
 - Increase your experience and level<br>
-  <img src="https://renatobrunetti.com.br/projects/moveit/moveit-levelup.png" width="500px">
+  <img src="https://renatobrunetti.com.br/public/.github/moveit/moveit-levelup.png" width="500px">
 
 ## Table of Contents
 
