@@ -29,7 +29,7 @@
 
 ## Abouth the Project
 
-This is a web application built in React.js and Next.js.
+This is a web application built with React.js and Next.js.
 
 ### Built With
 
@@ -53,7 +53,7 @@ It's very simple. Trust me.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/RenatoBrunetti/MoveIt.git
+git clone https://github.com/RenatoBrunetti/moveIt.git
 ```
 
 2. Install Packages
